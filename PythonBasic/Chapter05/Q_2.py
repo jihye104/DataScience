@@ -9,7 +9,14 @@
 #     avg = sum/cnt
 #     print(f"입력숫자 평균 : {avg}")
 
-num = 0
-sum = 0
+def avg(num_list):
+    tot = 0
 
-def num_avg():
+    for num in num_list:
+        tot += int(num)
+
+    return tot/len(num_list)
+
+num_list = input("원하는 만큼 숫자입력(예:10 20 30 40 50) : ").split()
+avg = avg(num_list)
+print(avg)
