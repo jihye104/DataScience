@@ -2,7 +2,12 @@
 <module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/PythonBasic" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PythonBasic/Chapter06" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PythonBasic/Chapter08" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PythonBasic/Chapter08/data" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
+      <excludeFolder url="file://$MODULE_DIR$/pkg_test" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.10 (DataScience)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
