@@ -7,7 +7,7 @@ for i in range(6):
 
     while num in lotto:
         num = random.randint(1,45)
-        
+
     lotto.append(num)
 
 print(lotto)

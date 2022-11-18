@@ -6,9 +6,6 @@ msg = input("메시지를 입력하세요 : ")
 
 with open("메세지.txt", mode="w", encoding="UTF-8") as file:
 
-    # file.write(f"{msg}")
-
-
     for m in range(1,11):
         file.write(f"{msg}{m}\n")
 
