@@ -30,16 +30,16 @@ def presentation_order(student_list):
 
 
 while True:
-    select_num = int(input("1. 커피로또\n2. 발표자순\n메뉴를 선택하세요 (엔터는 종료) : "))
+    select_num = input("1. 커피로또\n2. 발표자순\n메뉴를 선택하세요 (엔터는 종료) : ")
     student_list = ["김유진", "문성준", "박종민", "송지예", "양석훈", "이예지", "임성혁", "한권제", "현재봉"]
 
-    if select_num == 1:
+    if select_num == '1':
         student_list.append("이현구")
         target_num = int(input("당첨자 수를 입력하세요 : "))
         coffee_lotto(student_list, target_num)
 
-    elif select_num == 2:
+    elif select_num == '2':
         presentation_order(student_list)
 
-    elif select_num == "":
-        break
+    else:
+        quit()
