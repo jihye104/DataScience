@@ -2,16 +2,14 @@ import os
 import os.path
 print(os.getcwd())
 
-while True:
-    msg = input("메시지를 입력하세요 : ")+"\n"
+msg = input("메시지를 입력하세요 : ")
 
-    if msg == "\n":
-        break
+with open("메세지.txt", mode="w", encoding="UTF-8") as file:
 
-    try:
-        with open("\\Desktop-f1gtk6n/데이터분석_수업/김지혜/메세지.txt", mode="a", encoding="UTF-8") as file:
-            file.write(msg)
+    # file.write(f"{msg}")
 
 
-    except Exception as e:
-        print(f"Error 발생 : e")
+    for m in range(1,11):
+        file.write(f"{msg}{m}\n")
+
+
